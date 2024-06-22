@@ -1,0 +1,12 @@
+var f1 = "Mango";
+var f2 = "mango";
+var ten = 10;
+var five = 5;
+var array = ["Ali", "samad", "saad"];
+console.log(f1 == "Mango");
+console.log(f1 != "Mango");
+console.log(f2.toLowerCase() == "mango");
+console.log(f2.toLowerCase() != "mango");
+console.log(ten == five && ten > five);
+console.log(ten == five || ten > five);
+console.log(array.includes("saad"));
